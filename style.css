@@ -168,10 +168,6 @@ hr {
   color: white;
 }
 
-.chocolates {
-  font-family: o;
-}
-
 .main-container {
   display: flex;
   justify-content: center;
@@ -406,11 +402,12 @@ hr {
     height: 30vh;
   }
   .banner_text {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    transform: translate(-25%, -110%);
     color: #fff;
+  }
+  .banner_text p{
+    font-size: 12px;
   }
   .banner_text h1 {
     font-size: 3vw;
@@ -432,6 +429,7 @@ hr {
     display: block;
   }
 
+
   .testimonial {
     background-color: rgb(243, 243, 243);
     margin-top: 5vw;
@@ -444,6 +442,11 @@ hr {
     width: 100%;
     height: 20%;
   }
+
+  .banner2{
+    margin-top: 20vw;
+  }
+
   .footer-container {
     display: block;
     margin-top: 3vw;
@@ -452,7 +455,53 @@ hr {
   .foot-head {
     margin-top: 6vw;
   }
-  .insta-container{
+  .insta-container {
     display: block;
+  }
+  
+  .small-box {
+    display: flex;
+  }
+  .small-box img {
+    height: 30vh;
+    width: 40vw;
+    cursor: pointer;
+    margin-bottom: 8px;
+  }
+  
+  .box-img-container {
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .box-img-container img {
+    transition: transform 0.9s ease;
+    cursor: pointer;
+  }
+  
+  .box-img-container:hover img {
+    transform: scale(1.04);
+  }
+  
+  .large-box img{
+      height: 62vh;
+      display: block;
+      margin-left: 15px;
+  }
+  
+  .insta{
+      margin-top: -12vw;
+  }
+  .insta h2{
+      text-align: center;
+      margin-bottom: 2vw;
+      font-size: 30px;
+      color: #6c6c6c;
+  }
+  .chocolates{
+    text-align: center;
+    align-items: center;
   }
 }
